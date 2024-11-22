@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/aliliy.png";
+import profilePic from "../assets/lilyprofile.jpg";
 import { motion } from "framer-motion";
 import { GiDuration } from "react-icons/gi";
 
@@ -55,7 +55,7 @@ function Hero() {
             transition={{ duration: 1, delay: 1.2 }}
             src={profilePic}
             alt="profilePic"
-            className="max-w-full h-[350px] rounded-lg shadow-lg"
+            className="max-w-full h-[480px] rounded-lg shadow-lg"
           />
         </div>
       </div>
