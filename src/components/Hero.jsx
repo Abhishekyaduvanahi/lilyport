@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/lily1.jpg";
+import profilePic from "../assets/aliliy.png";
 import { motion } from "framer-motion";
 import { GiDuration } from "react-icons/gi";
 
@@ -19,7 +19,7 @@ function Hero() {
       <div className="flex flex-wrap lg:flex-nowrap items-center">
         {/* Left Section */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
-          <div className="px-4 lg:px-8">
+          <div className="px-4 lg:px-4">
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -55,7 +55,7 @@ function Hero() {
             transition={{ duration: 1, delay: 1.2 }}
             src={profilePic}
             alt="profilePic"
-            className="max-w-full h-auto rounded-lg shadow-lg"
+            className="max-w-full h-[350px] rounded-lg shadow-lg"
           />
         </div>
       </div>
